@@ -1,14 +1,11 @@
-import './App.css';
-import Nav from './Components/Nav';
-import './index.css';
-
+import React from "react";
+import Question from "./Quiz/Question"
 
 
 function App() {
   return (
     <>
-      <Nav />
-      <div className='bg-blue-600 w-full h-screen'></div>
+      <Question />
     </>
   );
 }
